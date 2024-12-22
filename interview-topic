@@ -424,4 +424,25 @@ LinkedList
 Create the LinkedList and Print all the Nodes.
 Delete the odd Element from the Linked List.
 .
+=========================================================================
+
+//how to deployed microserice without downtown
+
+//how to integrate microserice to each other.
+
+
+// You are optimizing a Java application for better memory usage. What techniques would you employ to minimize memory consumption?
+
+// A multi-threaded Java application is experiencing performance issues due to frequent garbage collection pauses. How would you troubleshoot and optimize garbage collection?
+
+
+// You are developing a web application with Spring Boot. How would you secure the application against common vulnerabilities such as SQL injection, XSS, and CSRF?
+
+// How would you implement authentication and authorization in a Spring Boot application?
+
+
+// You are developing a RESTful API using Spring Boot. How would you handle error responses to ensure they are informative and user-friendly?
+
+
+// You are developing a RESTful API using Spring Boot. How would you handle error responses to ensure they are informative and user-friendly?
 
