@@ -1,0 +1,448 @@
+Core Java
+https://drive.google.com/drive/u/1/folders/1t3QOe3CWVJgwuwtpAOTP5cSspo6lRV-Z
+
+Memory allocation and memory model ,garbage collection. What is the difference between stack and heap memory?
+How to identify memory leakage in java Application which tools we can use for Analysis.
+You are optimizing a Java application for better memory usage. What techniques would you employ to minimize memory consumption?
+A multi-threaded Java application is experiencing performance issues due to frequent garbage collection pauses. How would you troubleshoot and optimize garbage collection?
+JVM architecture and class Loader.
+definition of class,object,inheritance,polymorphism,abstraction,encapsulation.
+                Why is the interface used?
+uses of this,super,final ,transient ,volatile variable.
+Use of static method ,variable.
+different types of access modifier: public ,protected,default,private.
+ What are the differences between JVM, JRE and JDK in Java?
+Tell us something about the JIT compiler.
+Using relevant properties highlight the differences between interfaces and abstract classes.
+Java works as a "pass by value" or "pass by reference" phenomenon?
+Although inheritance is a popular OOPs concept, it is less advantageous than composition. Explain.
+
+
+String
+https://drive.google.com/drive/u/1/folders/1BxF88_V1lyzZIpC1-okqd4dDbKYRpNa8
+
+Apart from the security aspect, what are the reasons behind making strings immutable in Java?
+ how to create an immutable class.
+counting of frequency of character. for example:-abca abca
+ How would you differentiate between a String, StringBuffer, and a StringBuilder?
+How is the creation of a String using new() different from that of a literal?
+Why is the character array preferred over string for storing confidential information?
+Can you tell the difference between equals() method and equality operator (==) in Java?
+https://www.geeksforgeeks.org/reverse-a-string-in-java/
+how can we remove duplicate character from String.for ex =abcdbacad
+Intern method.
+
+serializable 
+https://drive.google.com/drive/u/1/folders/1eXPUK770Og4w0kqpvpLLAwfy8MmsowCj
+
+What do you understand about marker interfaces in Java?
+What is the serial version id? can we make a serializable class without serialversionuid.
+What is Externalization Interface in java.
+
+
+
+
+Exception Handling
+https://drive.google.com/drive/u/1/folders/1ng_puMVQyiirPU-SEj1UIfguj7SWoCt_
+
+
+What is the Exception hierarchy?
+What is the difference between   NoClassDefFoundError ,ClassNotFoundException and classcast Exception.
+what is try,Catch and ,finally, 
+try with resource
+diff between throw and Throws keyword.
+who called the checked exception.
+A single try block and multiple catch blocks can co exist in a Java Program. Explain. 
+Exception handling in inheritance.
+if we return to try then is it possible to finally execute the block? yes
+Difference between System.exit(0) and System.exit(1).
+
+Collection framework
+https://drive.google.com/drive/u/1/folders/1eXPUK770Og4w0kqpvpLLAwfy8MmsowCj
+
+What is the importance of reflection in Java?
+What failfast and failsafe.
+What is the hierarchy of collection Framework?
+internal working of hash map.
+arraylist and linkedlist diff and Implement Arraylist using array and implementation linked list using doubly linked list..
+hashmap and hashtable diff
+hashmap and linkedhashmap and TreeMap diff.
+What makes a HashSet different from a TreeSet and Linkedhashset?
+list insertion Order.
+Comparable and Comparator sorting on the basis of id and sorting  on the name.
+what is hashcode and equal method implementation and what contract between them.
+What is the method available in the Objects class?
+what is concurrent hashmap and hashtable and synchronized and weak hashmap map.
+How to create a synchronized Hashmap.
+.What data structure uses a hashmap?
+
+
+
+MultiThreading
+https://drive.google.com/drive/u/1/folders/1uJvX0ntpu3LGJlT6Iuy9LygTZeOJziCA
+
+What are the different ways of creating thread and  usage?
+What is parallelism and concurrency.
+ Thread and Process.
+ Life cycle of Thread.
+Printing odd and even numbers from two threads using the wait() and notify() method.
+Executor framework thread pool and Type of Executor Framework.and how to create custom ThreadPool.
+What is the difference between Future and computable Future.
+Various methods of Thread to control the execution of thread like wait,join,sleep,notify,notifyall.
+Yield method.
+diff wait() and sleep().
+difference between notify and notifyALL.
+Why is synchronization necessary? Explain with the help of a relevant example.
+Daemon Thread.
+is daemon Thread wait for main Thread. No
+Tools for monitoring Thread. jstack, VisualVM
+What is the difference between deadlock and livelock and starvation?how to resolve the deadlock.
+ How to create a custom Thread pool using ThreadPollExecuter
+What is the ThreadLocal class?
+What is the difference between synchronized and  Lockclass?
+What is the difference between class level locking and object level locking.
+What is the difference between synchronized block and synchronized method. 
+What is the difference between parallelism and concurrency?
+
+
+Java.util.concurrent package
+https://drive.google.com/drive/u/1/folders/1uJvX0ntpu3LGJlT6Iuy9LygTZeOJziCA
+
+Here are some key components and concepts provided by the java.util.concurrent package:
+Executor Framework:
+                    Provides a standardized way to decouple task submission from task execution.
+                   Includes interfaces like Executor, ExecutorService, and ScheduledExecutorService.
+         Executors:
+Utility classes for creating thread pools and executing tasks asynchronously.
+Includes Executors class that provides factory methods for various types of thread pools.
+Concurrent Collections:
+                 Thread-safe collections that provide higher concurrency than their counterparts in the java.util    
+                     package.
+                 Examples include ConcurrentHashMap, ConcurrentLinkedQueue, and CopyOnWriteArrayList.
+Synchronizers:
+Classes that help control the flow of threads and coordinate their execution.
+Examples include Semaphore, CountDownLatch, CyclicBarrier, and Phaser.
+Locks:
+More flexible synchronization mechanisms than intrinsic locks.
+Includes interfaces like Lock, ReadWriteLock, and classes like ReentrantLock and ReentrantReadWriteLock.
+Atomic Variables:
+Provides classes that support atomic operations on single variables without requiring synchronization.
+Examples include AtomicInteger, AtomicLong, and AtomicReference.
+Fork/Join Framework:
+A framework for parallelizing recursive divide-and-conquer tasks.
+Includes classes like ForkJoinPool and RecursiveTask.
+.
+
+java8 feature/ java.util.function/java.util.stream
+
+https://drive.google.com/drive/u/1/folders/17qqhXFi7oeXL02HG3I9eSDM0C-cOUBCI
+
+why we have used default method and static method in interface.
+What is a lambda expression?
+functional Interface benefit of functional Interface.
+map ,flatmap and filter 
+List of some functional interface
+Improvement of hashmap.
+Optional class
+Date API.
+Metaspace in java8
+coding question of java8
+
+
+SpringFramework
+https://docs.google.com/document/d/1qCnAAsyLDKE3NqJ0w9ZP4obVWI6MHaQIjkuXo2agJk4/edit
+
+Difference between @Inject and @Autowire.
+What is IOC container, DI and inversion of control.
+Type of autowire setter injection ,constructor injection which one is better why we have chosen one between them.
+How spring configuration works.
+Type of Autowire in spring Framework.
+What is the difference between beanfactory and  contextpath.
+What is the component and Bean and life cycle of beans?
+Circular dependency in spring framework.
+ scope of bean /what happens if prototype scope bean defines inside in singleton.
+What is the use of @Qulifier Annotation and @Primary Annotation.
+.What is Strio type anotation can we exchange to each other means can we change @servce with @configuration.
+.Exception handling in Spring using @controlleradvice and @Exception Handler.
+
+
+SpringMVC
+https://docs.google.com/document/d/1YHOAsOcJISObTusApb7E3LjO5ASu6UfFB3SqrGJzhmM/edit#heading=h.wg9b4pm0qcg
+
+Flow in Spring mvc Framework.
+Default View Resolver. Can we use multiple viewtype in one project?
+Spring Boot
+https://drive.google.com/drive/u/1/folders/1DzAmcESOlL1xh7HWoz-PnD9bM543gUHw
+
+https://docs.google.com/document/d/151rvjUYE6eyx27gA2HfHkrylUTxu0FYiYBcRB4Khz3U/edit
+
+List of Annotations in spring boot.
+how to override tomcat server
+what configuration we have kept in application.properties.
+What is similarity and difference between IOC container and Auto Configuration in java
+How to exclude beans from Auto configuration.
+What is the difference between @Component and @service and @bean
+How to get the value from queryparam, pathparam, header Http request Header,and body Reqestbody. 
+What are dev tools?
+what is actuator and how all  endpoints are exposed.
+How to change log level using actuator.
+how to exclude some beans from the classpath.
+Exception handling in spring boot @Exceptionhadler and @controlleradvice similar to try and catch block.
+You are developing a RESTful API using Spring Boot. How would you handle error responses to ensure they are informative and user-friendly?
+Spring Transaction.
+how to manage transactions in spring boot. How internally work  transaction Hint:it internally use the aop
+What is spring boot transaction Propagation?
+What is the Isolation level in spring boot transactions like dirty read,phantom read.
+
+Spring boot cache.
+how to implement the cache in spring boot like concurrenthashmap for basic cache and any other cache provider library like radis , ehcache for handling millions of data..
+How to increase the timeout of cache data.
+Cache policy.
+
+Spring Data
+
+Spring data :Jdbctemplate
+Spring data jpa :it provides the wrapper on Hibernate.
+What is the difference between jpa repository and crud jpa repository?
+List of methods available in jpaRepository like findById(),findAll(),save(),update().
+What are the joins available and with the help of we can define our own methods like findByName(),findByNameAndEmail().
+how to insert bulk data in Jdbc, Hibernate and Spring data jpa. 
+how to select 100000 records and apply pagination.
+How to connect databases using spring boot Application.
+How to connect multiple databases.
+
+Spring Security
+how Spring Security works and different components of Spring security like Authentication Filter, Principle,Authentication Manager ,Authentication Provider,UserDetailsService
+https://www.linkedin.com/pulse/how-does-spring-security-works-internally-ayush-jain/
+OAuth2 Framework.
+   https://www.linkedin.com/pulse/oauth-spring-security-ayush-jain/
+what is Authorization server,Resource Server and JWT.
+which class is used to validate the user id and password.
+how to userid and password encrypted.various algorithms like bcryptEncoder Class ,AES and DES algo.
+how database userid and password is encrypted.
+how to authenticate every request of the user.
+how to validate the barrier token again if we send the same barrier token. 
+You are developing a web application with Spring Boot. How would you secure the application against common vulnerabilities such as SQL injection, XSS, and CSRF?
+How would you implement authentication and authorization in a Spring Boot application?
+	
+
+RestFull API
+https://docs.google.com/document/d/12fm5rtLH1rsYOeVMNM2OWaAQj4nN_SXwYh6bsWVvXtg/edit
+https://drive.google.com/drive/u/1/folders/1IP1eFO10BkqVoe9tXo97YM4UwJ_d09OZ
+
+   What is REST?
+    Best Practice for RestFull API design.
+    What is the Difference between Post and Get. 
+    what is Put , post and Patch. What is the meaning of partial operation?
+   what happens if two methods are called. 
+   Advantage and Disadvantage of RestFull Web Service.
+How to implement swagger or openapi for creating documentation of API. 
+RestTemplate and webclient structure.and is webclient is asynchronous.what is the difference between them.
+What is the Jax RS library .How does serialization happen like converting object to json and json to object.
+
+
+Hibernate and JPA
+https://drive.google.com/drive/u/1/folders/1h40wud_KNsyYKgttvicHwQIjUmAyIRn6
+
+How to use composite keys in hibernate.
+What is the difference between save,saveorupdate and Persist.
+What is the difference between load and get.
+first level cache(session) and second level cache(sessionfactory) how to implement second level cache.
+what is cascade and  type of joining in entity class.
+caching technique how to enable second level cache..
+how to save the parent class will save then how to store the child class inheritance mapping..
+Relationship in hibernate.like @onetoone,@onetomany,@manytoone,@manytomany.
+what happens if we delete parent class and child class Details and how many time of cascade
+What is generated Strategy for id.
+List of annotations used in hibernate?
+Pagination in hibernate.
+
+
+Junit
+https://drive.google.com/drive/u/1/folders/1w08LbwRgl0S92aQ7XR3vLkTbWqDmYP7f
+
+How to write junit for database.
+How to write the junit for static method Hint using reflection API and power Mockito..
+How to write the junit for controller ,service and repository layer.
+How to execute some of the code for each test method of test class.
+How to mock the application.properties file for junit test case.
+MicroService
+https://docs.google.com/document/d/1XFfRbq3x89fd6lng8UAA-EtTuDUgDQMpfUR4N5_JkiU/edit
+
+What is Microservice? Advantage and Disadvantage of Microservice
+What are the challenges faced while migrating monolithic applications to microservice?
+What are the design principles of microservices?
+Design Pattern in MicroServices.
+how to deploy microservice without downtown
+What is Service Discovery and Service Registry and what is Eureka server and Eureka client.
+What is Load Balancer and how is it implemented?
+What is a circuit  breaker?How is this implemented and how many are the state.sliding windows based on time and count.
+.how a microservice is communicated and what is openfeint.
+how Rabbitmq and Active MQ work.
+What is a 12 factor service?
+What happens if the Ereka server is down.
+ What is Api gateway
+ Event Driven Architecture and event sourcing
+Saga Design pattern.
+
+
+Java Design pattern
+https://refactoring.guru/design-patterns/
+
+
+Creation Design pattern. 
+	1.Singleton Design
+                     Pattern and how to break the singleton design pattern by using reflection api and cloneable 
+	2.Prototype Design Pattern
+	3.Builder Design Pattern.
+	4.factory Design Pattern
+           5.Abstract Design Pattern
+	
+
+Structure Design pattern
+
+	Adapter Pattern
+           Bridge Pattern
+           Composite Pattern
+           Decorator Pattern
+           Facade Pattern
+          Flyweight Pattern
+          proxy Pattern
+
+Behaviour Design  Pattern
+
+
+
+Design Principle
+https://docs.google.com/document/d/1nghsJyDc9Nsxr5S9j8s_IJ27EPYoGU89v3Bw9X0hPwA/edit
+
+.Solid Principle
+S: single Responsibility Principle
+O: Open closed Principle
+L: Liskov Substitution Principle
+I: Interface Segregation Principle
+D:Dependency Inversion Principle
+Design Question
+
+.how to design tinyurl.
+How to design API and what are the key components we have required.
+how to design caching for the write heaving system and read heaving system.
+How to design read only API which get the data from database and 
+How to increase the performance of Application.
+
+
+
+
+Application Server
+
+1.Type of server and what is blocking and non-blocking server.
+2.tomcat is a non blocking server or not.  
+3.How to deploy a jboss server.
+4.How to deploy a weblogic server.
+
+Git
+https://docs.google.com/document/d/1y-AQQqu0kka6ROs9h7_IUNSo1490s_JQewp0_44t13s/edit
+
+What is GIT?
+What is the difference between git merge and git rebase.
+What happens if we do the commit?
+Branching strategy.
+Git stash: how we can change the other branch without committing our change.
+What is the difference between git pull and git fetch
+How to switch one branch to another branch.
+What is conflict.and how to resolve it..
+How to remove files from local repo.
+Cheripic command.
+Jenkins
+
+https://docs.google.com/document/d/1PofH6VvKavCZ8_vNYyCq6MJsXnBf0ocYWTDWBflPeqE/edit
+
+How to create a project in jenkins.
+How to configure deployment in jenkins.
+
+
+Docker
+https://docs.google.com/document/d/1Xg2NbNd29_nZTtBKP4cXArmbk5S1Vw-ADerFsUUSUy4/edit
+
+
+What is Docker?
+What are Docker files?
+Have you written any Docker file in your Project from scratch.
+What is an image?
+What is a container?
+How to pull the image.
+How to push the image in the local registry in docker or docker hub and ECR in cloud..
+How to override the properties in docker files for different environments.
+
+
+Build Tools
+https://docs.google.com/document/d/19y0nEIH2IsZwINlJoxWPuFOoVmN2FfshoLqZSYrnaPw/edit
+
+
+ What is the lifecycle of maven?
+What is the command for executing some test cases?
+What does the maven test command do?
+What does maven clean install?
+
+Kubernetes
+
+What is the kubernetes cluster
+How to create a replica set in kubernetes.
+What are the PODs?
+What are the Deployments
+What are the services?
+What are the stateful sets?
+Where we have defined the POD and Deployment configuration in Project.
+List of tools for kubernetes like kubectl,kind, minikube.
+Can we deploy a weblogic server in  kubernetes?
+ 
+
+
+Project Question  (Manager Round)
+Explain Project Architecture?
+What are the Design patterns used in Project?
+How and where database credentials will be stored in the project.
+Explain  Application configuration and how this is configured.
+What are the areas that you identify need to improve in your current Project? If yes then how to improve.
+How to estimate the time for any Development task in your Project.
+Is any AI tools you have used in project
+
+DSA/Coding Question
+
+String
+
+How to find the all permutation String
+How to count the character in string
+
+Array
+
+How  to remove the duplicate element from the arrays.
+How to sort the array.
+2sum question.
+LinkedList
+
+Create the LinkedList and Print all the Nodes.
+Delete the odd Element from the Linked List.
+.
+=========================================================================
+
+//how to deployed microserice without downtown
+
+//how to integrate microserice to each other.
+
+
+// You are optimizing a Java application for better memory usage. What techniques would you employ to minimize memory consumption?
+
+// A multi-threaded Java application is experiencing performance issues due to frequent garbage collection pauses. How would you troubleshoot and optimize garbage collection?
+
+
+// You are developing a web application with Spring Boot. How would you secure the application against common vulnerabilities such as SQL injection, XSS, and CSRF?
+
+// How would you implement authentication and authorization in a Spring Boot application?
+
+
+// You are developing a RESTful API using Spring Boot. How would you handle error responses to ensure they are informative and user-friendly?
+
+
+// You are developing a RESTful API using Spring Boot. How would you handle error responses to ensure they are informative and user-friendly?
+
