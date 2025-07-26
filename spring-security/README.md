@@ -26,6 +26,7 @@
   - Resource Server
   - Client
 - What is JWT (JSON Web Token)?
+- What is JWT (JSON Web Token) and OAuth2
 - How to validate bearer tokens?
 - How to validate the same bearer token if sent again?
 
