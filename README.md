@@ -3,7 +3,6 @@
 This repository contains a comprehensive collection of Java interview topics and questions organized by category.
 
 ## Table of Contents
-
 1. [Core Java](./core-java/README.md)
 2. [String Handling](./string-handling/README.md)
 3. [Serialization](./serialization/README.md)
